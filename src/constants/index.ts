@@ -95,9 +95,20 @@ export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE
 export const BUSD = new Token(ChainId.MAINNET, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
 export const BTCB = new Token(ChainId.MAINNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Binance BTC')
 export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'USDT', 'Tether USD')
-export const UST = new Token(ChainId.MAINNET, '0x23396cF899Ca06c4472205fC903bDB4de249D6fC',  18,  'UST', 'Wrapped UST Token')
-export const ETH = new Token(ChainId.MAINNET, '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 18,  'ETH', 'Binance-Peg Ethereum Token')
-export const APBK = new Token(ChainId.MAINNET, '0x3705496eE4614f7fE939E410f5A03dF988148e50', 9,  'APBK', 'ApeBlack')
+export const UST = new Token(
+  ChainId.MAINNET,
+  '0x23396cF899Ca06c4472205fC903bDB4de249D6fC',
+  18,
+  'UST',
+  'Wrapped UST Token'
+)
+export const ETH = new Token(
+  ChainId.MAINNET,
+  '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+  18,
+  'ETH',
+  'Binance-Peg Ethereum Token'
+)
 
 const WBNB_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
