@@ -82,13 +82,7 @@ export const LRT = new WrappedTokenInfo(
     logoURI:"https://cz.cash/images/tokens/LRT.png"
   },[]
 )
-export const APBK = new Token(
-  ChainId.MAINNET,
-  '0x3705496eE4614f7fE939E410f5A03dF988148e50',
-  9,
-  'APBK',
-  'ApeBlack'
-)
+
 export const APBK = new WrappedTokenInfo(
   {
     chainId:56,
