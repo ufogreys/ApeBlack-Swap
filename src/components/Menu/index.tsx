@@ -101,7 +101,7 @@ export default function Menu() {
             <MessageCircle size={14} />
             {t('Telegram')}
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/apeblack/czcash-swap-fe/">
+          <MenuItem id="link" href="https://github.com/apeblack/ApeBlackSwap">
             <Code size={14} />
             {t('code')}
           </MenuItem>
