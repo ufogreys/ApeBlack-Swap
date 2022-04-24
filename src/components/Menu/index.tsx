@@ -93,15 +93,15 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://app.czodiac.com/">
+          <MenuItem id="link" href="https://www.apeblack.com/">
             <Home size={14} />
             {t('Website')}
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/CZodiacofficial">
+          <MenuItem id="link" href="https://t.me/apeblackglobal">
             <MessageCircle size={14} />
             {t('Telegram')}
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/chinese-zodiac">
+          <MenuItem id="link" href="https://github.com/apeblack">
             <Code size={14} />
             {t('code')}
           </MenuItem>
