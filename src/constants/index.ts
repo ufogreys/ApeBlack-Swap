@@ -89,6 +89,16 @@ export const APBK = new Token(
   'APBK',
   'ApeBlack'
 )
+export const APBK = new WrappedTokenInfo(
+  {
+    chainId:56,
+    address:"0x3705496eE4614f7fE939E410f5A03dF988148e50",
+    name: "ApeBlack",
+    decimals:9,
+    symbol:"APBK",
+    logoURI:"https://i.ibb.co/PxZxp56/ApeBlack.png"
+  },[]
+)
 
 export const WBNB = new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
 export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
