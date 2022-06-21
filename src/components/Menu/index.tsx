@@ -97,7 +97,7 @@ export default function Menu() {
             <Home size={14} />
             {t('Website')}
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/apeblackglobal">
+          <MenuItem id="link" href="https://t.me/ApeBlack">
             <MessageCircle size={14} />
             {t('Telegram')}
           </MenuItem>
